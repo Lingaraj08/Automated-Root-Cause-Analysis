@@ -17,22 +17,6 @@ It contains:
   - app.py
   - requirements.txt
 
-## How to unzip the provided zip (in Ubuntu)
-1. Open Terminal (Ctrl+Alt+T).
-2. Move to the directory where you downloaded the zip. For example, if it's in `~/Downloads`:
-   ```
-   cd ~/Downloads
-   ```
-3. Unzip to a folder (example will create `~/rca_project`):
-   ```
-   unzip rca_project.zip -d ~/rca_project
-   ```
-4. The project will be available at `~/rca_project/rca_project` (note double path because the zip contains the project root).
-   To move it to `~/rca_project`:
-   ```
-   mv ~/rca_project/rca_project/* ~/rca_project/
-   rmdir ~/rca_project/rca_project
-   ```
 
 ## Run the project using Docker Compose
 1. Open VS Code.
